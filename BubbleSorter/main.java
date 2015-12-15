@@ -6,8 +6,8 @@ public class main {
 	 *  @author mfwass
 	 */
 	public static void main(String[] args) {
-	    // Initialize variables.
-	    InputStreamReader stdin = new InputStreamReader(System.in);
+	      // Initialize variables.
+	      InputStreamReader stdin = new InputStreamReader(System.in);
         BufferedReader console = new BufferedReader(stdin);
         int[] array = null; // The array for storing the inputed data.
         int size = 0;       // used to input the array size.
