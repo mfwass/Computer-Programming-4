@@ -9,9 +9,9 @@ public class main {
 	      // Initialize variables.
 	      InputStreamReader stdin = new InputStreamReader(System.in);
         BufferedReader console = new BufferedReader(stdin);
-        int[] array = null; // The array for storing the inputed data.
-        int size = 0;       // used to input the array size.
-        int counter = 0;    // counter to keep track of data in the output.
+        int[] array = null;  // The array for storing the inputed data.
+        int size = 0;        // used to input the array size.
+        int counter = 0;     // counter to keep track of data in the output.
 
         // Begin inputer.
 		try {
