@@ -36,9 +36,9 @@ public class main {
 
         int temp; // Initialize temporary variable.
 
-        for (int i = 0; i < array.length; i++){ // loop through array length.
-            for (int j = 1; j < array.length-i; j++){ // loop through array length.
-                if(array[j-1] > array[j]){    // change > to < for flip/flop order.
+        for (int i = 0; i < array.length; i++) { // loop through array length.
+            for (int j = 1; j < array.length-i; j++) { // loop through array length.
+                if (array[j-1] > array[j]) {    // change > to < for flip/flop order.
                     temp=array[j-1];          // store temporary variable in array[size].
                     array[j-1] = array[j];    // flip/flop array contents.
                     array[j] = temp;          // throw temporary variable into the other array element.
