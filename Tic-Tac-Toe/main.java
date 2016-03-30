@@ -10,7 +10,7 @@ import javax.swing.JTextField;
 import javax.swing.JTextPane;
 
 @SuppressWarnings("serial")
-public class Main extends JFrame {
+public class main extends JFrame {
 
     public static boolean move = false;
     public static JTextPane gameBoard = new JTextPane();
@@ -20,7 +20,7 @@ public class Main extends JFrame {
 
     public static char board[][] = new char[3][3]; 
 
-    public Main() {
+    public main() {
         setTitle("Tic-Tac-Toe");
 
         setLayout(new GridBagLayout());
@@ -60,7 +60,7 @@ public class Main extends JFrame {
 
     @SuppressWarnings("unused")
     public static void main(String[] args) {
-        Main ttt = new Main();
+        main ttt = new main();
         for (int xx = 0; xx < 3; xx++) {
             for (int yy = 0; yy < 3; yy++) {
                 board[xx][yy] = 32;
