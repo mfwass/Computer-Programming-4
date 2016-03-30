@@ -37,10 +37,10 @@ public class main {
         } catch (IOException e) {
             System.out.println("Error with input!");
         }
-        if (fib < 0) {	
+        if (fib < 0) {
             System.out.println("Error: You must enter a number greater than or equal to 0.");
             System.exit(1);
         }
         return fib;
-        
+
 }

@@ -54,7 +54,7 @@ public class main {
         }
         return input;
     }
-    
+
     public static void hanoi(int i, char a, char b, char c) {
         if (i<=1) {
             System.out.println("Move disk from " + a + " to " + c + ".");

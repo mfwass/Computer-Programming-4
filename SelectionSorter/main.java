@@ -27,12 +27,12 @@ public class main {
         for (int i = array.length - 1; i > 0; i--) {
             int start = 0; // Make our starting variable which will be the first element in the array.
             for (int k = 1; k <= i; k++) {
-                if (array[k] > array[start]) {   // Flip/flop < > to change output order. 
+                if (array[k] > array[start]) {   // Flip/flop < > to change output order.
                     start = k;    // Set starting element to the smallest/largest value.
                 }
                 /*
                  * Flips two array elements.
-                 * 
+                 *
                  * =================
                  * ==== Example ====
                  * =================

@@ -18,7 +18,7 @@ public class main extends JFrame {
     static JLabel lbl = new JLabel("Player " + (char)(88+(move? 1 : 0)*-9) + ", make your move.");
 
 
-    public static char board[][] = new char[3][3]; 
+    public static char board[][] = new char[3][3];
 
     public main() {
         setTitle("Tic-Tac-Toe");
@@ -70,11 +70,11 @@ public class main extends JFrame {
     }
 
     public static void drawBoard() {
-        gameBoard.setText("Board      Key\n" + 
-                          board[0][0] + "█" + board[1][0] + "█" +board[2][0] + "     1 2 3\n" + 
-                          "█████\n" + 
-                          board[0][1] + "█" + board[1][1] + "█" +board[2][1] + "     4 5 6\n" + 
-                          "█████\n" + 
+        gameBoard.setText("Board      Key\n" +
+                          board[0][0] + "█" + board[1][0] + "█" +board[2][0] + "     1 2 3\n" +
+                          "█████\n" +
+                          board[0][1] + "█" + board[1][1] + "█" +board[2][1] + "     4 5 6\n" +
+                          "█████\n" +
                           board[0][2] + "█" + board[1][2] + "█" +board[2][2] + "     7 8 9"
                             );
     }
@@ -110,7 +110,7 @@ public class main extends JFrame {
                 }
             }
         }
- 
+
         else {
             txtInput.setText("Error: Space " + input + " is already taken.");
         }
