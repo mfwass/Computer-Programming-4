@@ -5,7 +5,7 @@ import os
 for path, dirs, files in os.walk('../'):
     for f in files:
         file_name, file_extension = os.path.splitext(f)
-        if file_extension == '.py':
+        if file_extension in ('.py','.java'):
             path_name = os.path.join(path, f)
             with open(path_name, 'r') as fh:
                 new = [line.rstrip() for line in fh]
