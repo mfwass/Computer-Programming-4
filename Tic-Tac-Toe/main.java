@@ -10,7 +10,7 @@ import javax.swing.JTextField;
 import javax.swing.JTextPane;
 
 @SuppressWarnings("serial")
-public class Main extends JFrame {
+public class main extends JFrame {
     
     //Create stuff
     public static boolean move = false;
@@ -59,8 +59,8 @@ public class Main extends JFrame {
     @SuppressWarnings("unused")
     public static void main(String[] args) {
         //Initialize game
-        Main ttt = new main();
-        
+        main ttt = new main();
+
         //Clear board
         for (int xx = 0; xx < 3; xx++) {
             for (int yy = 0; yy < 3; yy++) {
@@ -69,7 +69,7 @@ public class Main extends JFrame {
         }
         drawBoard();
     }
-    
+
     public static void drawBoard() {
         //Draw Board
         gameBoard.setText("Board      Key\n" + 
